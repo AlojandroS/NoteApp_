@@ -1,0 +1,56 @@
+.create-post-form {
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .create-post-form input,
+  .create-post-form textarea {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .create-post-form
+  .button-submit,
+  .button-close {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .create-post-form   button[type="submit"]:hover {
+    background-color: #015fa1;
+  }
+
+  .button-crear {
+    background-color: #264455;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+  }
+  
+  .button-crear:hover {
+    background-color: #0b8fd6;
+    cursor: pointer;
+  }
