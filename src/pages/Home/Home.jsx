@@ -1,5 +1,5 @@
 import CreatePost from "../../components/CreatePost/CreatePost";
-import Posts from "../../components/post/post";
+import Posts from "../../components/Post/Post";
 
 
 const Home = () => {
